@@ -1,19 +1,13 @@
-$cd mpns
-$composer install
-$cp .env.example .env
+ <p>$cd hospital</p><br>
+  <p>$composer install</p><br>
+   <p>$cp .env.example .env</p><br>
 
-# Setup Database Conf (.env)
+<h2># Setup Database Conf (.env)</h2><br>
 
-$php artisan key:generate
-import database yang ada di folder database
+<p>$cp .env.example .env</p><br>
+$php artisan key:generate <br>
+import database yang ada di folder database <br>
 
-$php artisan serve
+$php artisan serve <br>
 
-# Open http://127.0.0.1:8000
-
-# Login (Default)
-
-# email: admin@hospital.app
-
-# password: password
-# hospital_app
+# Open http://127.0.0.1:8000 <br>
